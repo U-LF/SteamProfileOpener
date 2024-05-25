@@ -114,7 +114,7 @@ int main() {
         if (!id64.empty()) {
             openProfile(id64);
         }
-        if (Times == StopAfter)
+        if (Times == StopAfter + 1)
         {
             cout << StopAfter << " profiles have been opened, press any key when you are ready to open the next " << StopAfter << "\n";
             Times = 0;
