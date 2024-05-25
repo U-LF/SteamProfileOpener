@@ -91,7 +91,7 @@ int main() {
         ConfigFile.open("Config.txt");
     }
 
-    cout << "The program is ready to start opening files\n";
+    cout << "The program is ready to start opening profiles\n";
     system("PAUSE");
 
     // Read the data from the file
