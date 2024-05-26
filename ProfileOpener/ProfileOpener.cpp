@@ -123,5 +123,8 @@ int main() {
         Times++;
     }
 
+    cout << "\n\nProgram has finished opening profiles\n\n";
+    system("PAUSE");
+
     return 0;
 }
